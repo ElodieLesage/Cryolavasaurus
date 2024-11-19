@@ -9,7 +9,9 @@ The project files are organized as follows:
 
 ## Main Scripts: The core MATLAB files for running the model are found in this directory. The key scripts include:
 • resInput.m: The main entry point for running the model. Used to set the relevant model parameters and call main.m for each single model case.
+
 • main.m: This script orchestrates the entire simulation for each model case by initializing the model, running the thermal solver, managing reservoir emplacement, and calling other necessary functions.
+
 • plotComp.m, plotComp_paperFormat.m: Scripts for generating plots of the simulation results. These scripts are useful for visualizing the compositional evolution and comparing different model scenarios.
 
 ## Input: Folder containing input files used by the model, such as resInput_CM.m, which define the parameters for different simulations (e.g., reservoir thickness, depth, temperature conditions). The following scripts allow batch generation of the input files:
